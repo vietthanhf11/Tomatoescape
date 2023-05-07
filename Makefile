@@ -1,0 +1,2 @@
+all:
+	g++ main.cpp GameBase.cpp GameUtils.cpp LTexture.cpp Button.cpp Character.cpp Enemy1.cpp Enemy2.cpp -I src/include -L -src/lib -o Tomatoescape -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
